@@ -1,7 +1,8 @@
 # https-github.com-alianjiku-cmd-iyf-s11-week-04-https-github.com-alianjiku-cmd-alianjiku.cmds
 JavaScript Basics &amp; Arrays, Objects &amp; Data Manipulation
-Task 7.1: JavaScript Setup
-What main.js code demonstrates
+
+*Task 7.1: JavaScript Setup*
+**What main.js code demonstrates**
 . A string variable (name)
 . A number variable (age)
 . A boolean variable (isStudent)
@@ -11,8 +12,9 @@ What main.js code demonstrates
 . The difference between let and const
 . console.log() with descriptive messages & Variables
 
-Task 7.2: Data Types & Operators
-After completing this exercise,Ihave practiced the following:
+
+*Task 7.2: Data Types & Operators*
+**After completing this exercise,I have practiced the following:**
 
 - Variables (let)
 - Numbers
@@ -22,5 +24,10 @@ After completing this exercise,Ihave practiced the following:
 - Division (/)
   -Modulus (%)
 - Exponentiation (**)
-  -Increment (++)
-  -Decrement (--)
+-Increment (++)
+-Decrement (--)
+
+
+*Task 7.3: Functions*
+
+
