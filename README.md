@@ -29,9 +29,10 @@ JavaScript Basics &amp; Arrays, Objects &amp; Data Manipulation
 
 
 *Task 7.3: Functions*
-**My expected Output**
+A function is a reusable piece of code.
+ **My expected Output**
 1. Loop Method: olleh
-2. Built-in Method: olleh
+2. Build-in-methode
 
 
 
