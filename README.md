@@ -31,7 +31,7 @@ JavaScript Basics &amp; Arrays, Objects &amp; Data Manipulation
 *Task 7.3: Functions*
 A function is a reusable piece of code.
  **My expected Output**
-1. Loop Method: olleh
+1. Loop Method: 
 2. Build-in-methode
 
 
