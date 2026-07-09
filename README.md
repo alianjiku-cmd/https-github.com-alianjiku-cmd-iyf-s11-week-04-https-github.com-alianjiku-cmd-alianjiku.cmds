@@ -35,6 +35,34 @@ A function is a reusable piece of code.
 2. Build-in-methode
 
 *Task 7.4: Control Flow*
+*Task 8.1: Arrays*
+
+Exercise 1: Array Basics
+Exercise 2: Array Methods
+
+*Task 8.2: Objects* 
+Exercise 1: Object Basics
+Exercise 2: Object Methods
+Exercise 3: Object Iteration
+
+*Task 8.3: Array of Objects*
+Exercise: Working with Real Data
+Mini-Project: Student Grade Tracker
+
+**Daily Challenges**
+Day 1: FizzBuzz 
+Day 2: Reverse a String 
+Day 3: Find Largest Number
+The exercise is testing whether I can find the largest number in an array without using Math.max().l solveD it in two ways:
+- *Using a loop*
+- *Using reduce()*
+
+Day 4: Remove Duplicates
+Day 5: Palindrome Checker 
+
+
+
+
 
 
 
