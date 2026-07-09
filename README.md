@@ -58,6 +58,16 @@ The exercise is testing whether I can find the largest number in an array withou
 - *Using reduce()*
 
 Day 4: Remove Duplicates
+I solved it in two ways:
+
+1.  Using Set
+2. Using filter()
+
+*How it works*
+.Set automatically removes duplicate values because a Set only stores unique items.
+.filter() checks each element and keeps only its first occurrence using indexOf().
+   
+
 Day 5: Palindrome Checker 
 
 
