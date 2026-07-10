@@ -122,15 +122,84 @@ The program displays:
 
 
 **Daily Challenges**
-Day 1: FizzBuzz In
+**Day 1: FizzBuzz In**
 An array stores many values. An array can also store different types of data 
 Example: 
 const mixed = ["hello", 42, true, null];
 
 
 
-Day 2: Reverse a String 
-Day 3: Find Largest Number
+**Day 2: Reverse a String **
+# Day 2: Reverse a String
+
+## Overview
+
+This project demonstrates two different ways of reversing a string using JavaScript.
+
+The goal of the exercise is to understand how strings can be manipulated using loops and built-in array methods.
+
+## Methods Used
+
+### 1. Built-in Methods
+
+This approach converts the string into an array using `split("")`, reverses the array using `reverse()`, and joins it back into a string using `join("")`.
+
+Example:
+
+```javascript
+"hello"
+.split("")
+.reverse()
+.join("")
+```
+
+Output:
+
+```text
+olleh
+```
+
+### 2. Loop
+
+This approach starts from the last character of the string and moves backwards, adding one character at a time to create a new reversed string.
+
+## JavaScript Concepts Practiced
+
+* Functions
+* Strings
+* Arrays
+* Loops
+* `split()`
+* `reverse()`
+* `join()`
+* `console.log()`
+
+## How to Run
+
+1. Open the terminal.
+2. Navigate to the project folder.
+3. Run:
+
+```bash
+node reverse-string.js
+```
+
+## Example Output
+
+```text
+Original: hello
+Built-in: olleh
+Loop: olleh
+```
+
+## What I Learned
+
+Through this exercise, I learned that there are multiple ways to solve the same problem in JavaScript. The built-in method is shorter and easier to read, while the loop method helped me understand how strings can be processed one character at a time.
+
+
+
+**Day 3: Find Largest Number**
+
 The exercise is testing whether I can find the largest number in an array without using Math.max().l solveD it in two ways:
 - *Using a loop*
 - *Using reduce()*
