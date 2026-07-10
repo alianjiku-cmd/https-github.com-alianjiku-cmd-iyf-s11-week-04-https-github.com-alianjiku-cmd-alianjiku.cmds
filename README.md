@@ -78,7 +78,12 @@ Day 5: Palindrome Checker
 .join("")- joins the characters back into a string.
 .The function compares the cleaned string with its reversed version. If they are the same, it returns true; otherwise, it returns false.
 
+This solution satisfies all the assignment requirements:
 
+1. Checks whether a string is a palindrome.
+- Ignores uppercase and lowercase differences.
+- Ignores spaces.
+- Includes the required test cases.
 
 
 
