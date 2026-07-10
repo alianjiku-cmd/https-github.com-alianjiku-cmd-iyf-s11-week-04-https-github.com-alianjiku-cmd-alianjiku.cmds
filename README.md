@@ -70,6 +70,13 @@ I solved it in two ways:
 
 Day 5: Palindrome Checker 
 
+**How it works**
+.toLowerCase()- converts all letters to lowercase so "RaceCar" becomes "racecar".
+.replace(/\s+/g, "") -removes all spaces from the string.
+.split("")- turns the string into an array of characters.
+.reverse()- reverses the array.
+.join("")- joins the characters back into a string.
+.The function compares the cleaned string with its reversed version. If they are the same, it returns true; otherwise, it returns false.
 
 
 
