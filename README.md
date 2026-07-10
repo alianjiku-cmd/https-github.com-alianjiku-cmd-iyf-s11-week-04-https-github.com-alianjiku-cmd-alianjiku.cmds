@@ -86,5 +86,8 @@ This solution satisfies all the assignment requirements:
 - Includes the required test cases.
 
 
-
+Expected Output
+"racecar" -> true
+"hello" -> false
+"A man a plan a canal Panama" -> true
 
