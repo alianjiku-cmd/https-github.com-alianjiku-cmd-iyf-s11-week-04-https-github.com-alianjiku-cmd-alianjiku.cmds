@@ -119,10 +119,18 @@ The program displays:
 * Students needing academic support
 * A formatted report card showing subject grades, average score, and letter grade.
 
-
-
 **Daily Challenges**
+
 **Day 1: FizzBuzz In**
+
+**The Core Goal**
+The FizzBuzz problem tests your understanding of loops and remainders (modulo). You need to count from 1 to 100, replacing specific numbers with words.
+ 
+ **Step-by-Step Breakdown**
+-The Loop: You need to repeat an action 100 times
+-The Shared Condition: Check if a number divides perfectly into both 3 and 5 first
+-The Single Conditions: Check if it divides into 3, then check 5.
+-The Default: If none match, print the number itse
 
 
 
