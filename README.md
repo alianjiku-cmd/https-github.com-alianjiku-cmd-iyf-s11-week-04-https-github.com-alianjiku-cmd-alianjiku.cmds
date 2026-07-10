@@ -123,13 +123,10 @@ The program displays:
 
 **Daily Challenges**
 **Day 1: FizzBuzz In**
-An array stores many values. An array can also store different types of data 
-Example: 
-const mixed = ["hello", 42, true, null];
 
 
 
-**Day 2: Reverse a String **
+
 # Day 2: Reverse a String
 
 ## Overview
