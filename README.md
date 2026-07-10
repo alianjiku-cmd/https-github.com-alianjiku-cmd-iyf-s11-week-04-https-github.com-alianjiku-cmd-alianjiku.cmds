@@ -46,18 +46,96 @@ Exercise 2: Object Methods
 Exercise 3: Object Iteration
 
 *Task 8.3: Array of Objects*
-Exercise: Working with Real Data
-Mini-Project: Student Grade Tracker
+# Student Grade Tracker
+
+## Overview
+
+This project is a JavaScript practice exercise that demonstrates how to work with arrays of objects and object methods. It includes solutions for common array operations and a mini-project that manages student grades.
+
+## Features
+
+### Array of Objects Exercises
+
+The program performs the following tasks:
+
+* Retrieves all student names using the `map()` method.
+* Filters students with grades above 80 using `filter()`.
+* Finds a specific student by name using `find()`.
+* Calculates the average grade using `reduce()`.
+* Displays only Computer Science (CS) students.
+* Sorts students from the highest grade to the lowest.
+* Checks whether any student has a grade above 90 using `some()`.
+* Checks whether all students have passing grades using `every()`.
+
+### Student Grade Tracker
+
+The `gradeTracker` object provides several methods for managing student records:
+
+* **addStudent()** – Adds a new student and their subject grades.
+* **getStudent()** – Searches for a student by name.
+* **getStudentAverage()** – Calculates the average score for a student.
+* **getSubjectAverage()** – Calculates the class average for a specific subject.
+* **getTopStudent()** – Finds the student with the highest average score.
+* **getStrugglingStudents()** – Lists students whose average is below 70.
+* **getLetterGrade()** – Converts a numerical score into a letter grade (A–F).
+* **generateReportCard()** – Creates a formatted report card showing grades, average, and letter grade.
+
+## JavaScript Concepts Used
+
+This project demonstrates the use of:
+
+* Arrays
+* Objects
+* Nested objects
+* Object methods
+* Array methods (`map`, `filter`, `find`, `reduce`, `sort`, `some`, `every`)
+* `Object.values()`
+* Loops
+* Functions
+* Conditional statements
+* Template literals
+
+## How to Run
+
+1. Save the file as `student-grade-tracker.js`.
+2. Open the terminal.
+3. Navigate to the project folder.
+4. Run the program using:
+
+```bash
+node student-grade-tracker.js
+```
+
+## Expected Output
+
+The program displays:
+
+* Student names
+* High-achieving students
+* Average class grade
+* Computer Science majors
+* Sorted student records
+* Top-performing student
+* Students needing academic support
+* A formatted report card showing subject grades, average score, and letter grade.
+
+
 
 **Daily Challenges**
-Day 1: FizzBuzz 
+Day 1: FizzBuzz In
+An array stores many values. An array can also store different types of data 
+Example: 
+const mixed = ["hello", 42, true, null];
+
+
+
 Day 2: Reverse a String 
 Day 3: Find Largest Number
 The exercise is testing whether I can find the largest number in an array without using Math.max().l solveD it in two ways:
 - *Using a loop*
 - *Using reduce()*
 
-Day 4: Remove Duplicates
+*Day 4: Remove Duplicates*
 I solved it in two ways:
 
 1.  Using Set
