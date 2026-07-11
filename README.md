@@ -38,12 +38,36 @@ A function is a reusable piece of code.
 *Task 8.1: Arrays*
 
 Exercise 1: Array Basics
-Exercise 2: Array Methods
+Exercise 2: Array Method
 
 *Task 8.2: Objects* 
-Exercise 1: Object Basics
-Exercise 2: Object Methods
-Exercise 3: Object Iteration
+***The Core Goal**
+This lesson covers JavaScript Objects, which are used to store collections of related data and behavior. Think of an object as a digital container with labeled slots.
+**Step-by-Step Breakdown**
+ 
+ **Exercise 1: Object Basics (The Container)**
+1 .The Blueprint: An object stores data using key: value pairs.
+2. Reading Data: Use Dot notation (person.firstName) for standard keys. Use Bracket notation       (person["lastName"]) if your key has spaces or is stored in a variable.
+3. Updating Data: You can add new labels (person.email) or destroy old ones (delete                person.isStudent) at any time.
+
+**Exercise 2: Object Methods (The Actions)**
+- What is a Method?: A method is simply a function stored inside an object property. It allows    the object to "do" things.
+- Syntax Styles: You can write them longform (add: function()), shorthand (subtract()), or as an arrow function (multiply: () =>).
+
+  **Exercise 3: Object Iteration (The Inspector)**
+. Object.keys(): Grabs only the labels (e.g., subject names).
+. Object.values(): Grabs only the data inside (e.g., actual test scores).
+. Object.entries(): Grabs both as pairs, allowing you to use a for...of loop to look at every single item step-by-step.
+
+#### What I Practiced
+* **Data Management**: Created structured data models using nested objects, arrays, and standard primitive types.
+* **Property Manipulation**: Formatted, updated, dynamically injected, and deleted object properties using both dot and bracket notation.
+* **Behavior Definition**: Implemented object methods using standard, shorthand, and ES6 arrow function syntaxes.
+* **Data Extraction**: Iterated through data sets using modern global static methods (`Object.keys`, `Object.values`, and `Object.entries`) combined with array destructuring loops.
+
+#### Key Takeaway
+Objects are the foundational building blocks for structural data in JavaScript. Mastering iteration methods like `Object.entries()` provides a clean, highly readable alternative to old-school `for...in` loops.
+Use code with caution.To make sure your presentation goes smoothly, would you like me to explain the crucial structural difference between arrow functions and regular functions when used inside an object?
 
 *Task 8.3: Array of Objects*
 # Student Grade Tracker
