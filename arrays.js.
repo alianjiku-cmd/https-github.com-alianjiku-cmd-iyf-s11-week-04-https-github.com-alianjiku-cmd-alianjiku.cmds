@@ -1,0 +1,54 @@
+
+// Creating arrays
+const fruits = ["apple", "banana", "orange"];
+const numbers = [1, 2, 3, 4, 5];
+const mixed = ["hello", 42, true, null];
+
+// Accessing elements
+console.log(fruits[0]);
+console.log(fruits.length);
+
+// Modifying arrays
+fruits.push("grape");
+fruits.unshift("mango");
+fruits.pop();
+fruits.shift();
+
+console.log(fruits);
+
+// Array Methods
+numbers.forEach(num => console.log(num * 2));
+
+const doubled = numbers.map(num => num * 2);
+console.log(doubled);
+
+const evenNumbers = numbers.filter(num => num % 2 === 0);
+console.log(evenNumbers);
+
+const firstEven = numbers.find(num => num % 2 === 0);
+console.log(firstEven);
+
+const sum = numbers.reduce((total, num) => total + num, 0);
+console.log(sum);
+
+console.log(numbers.includes(3));
+
+// Build Programs
+const values = [-5, 3, -1, 7, 0, -9, 15, 20];
+
+// Double all numbers
+const doubledValues = values.map(num => num * 2);
+console.log(doubledValues);
+
+// Filter out negative numbers
+const positiveNumbers = values.filter(num => num >= 0);
+console.log(positiveNumbers);
+
+// Find the first number greater than 10
+const firstGreaterThanTen = values.find(num => num > 10);
+console.log(firstGreaterThanTen);
+
+// Calculate the product of all positive numbers
+const positiveValues = positiveNumbers.filter(num => num > 0);
+const product = positiveValues.reduce((total, num) => total * num, 1);
+console.log(product);
